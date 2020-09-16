@@ -1,0 +1,64 @@
+/* this is my new stylesheet */
+/*
+p {
+  color: #ff0000;
+  background-color: #0000ff;
+}
+*/
+
+a {
+ color: #ff00ff;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #FAFF00;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #00FF00;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+h3 {
+  color: #F99A1F;
+  background-color: #FACBCB;
+}
+
+.spanstyle {
+  color: #ff0000;
+}
+
+#divexample {
+  color: #0000ff;
+  background-color: #ffff00;
+}
+
+#specialid {
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
+
+.specialp {
+  color: #B4313C;
+  background-color: #FACBCB;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ff0000;
+}
