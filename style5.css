@@ -1,0 +1,122 @@
+header {
+  border-bottom: 4px solid #8504E0;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  color: #8504E0;
+  margin-bottom: 10px
+}
+
+h1 {
+  margin-bottom: 510px;
+  margin-top: 0;
+  padding-left: 0;
+  color: #FD3ADC;
+  text-align: center;
+  line-height: 110px;
+}
+
+footer{
+  line-height: 0;
+  margin-top: 0;
+}
+
+body {
+   background-image: url(Lakeith.jpg);
+   background-repeat: no-repeat;
+   background-color: #fbd335;
+   font-family: impact;
+   color: #8504E0;
+   width: 600px;
+   text-align: justify;
+}
+
+.red {
+  color: #FF2327;
+}
+.pink {
+  color: #FD3ADC;
+}
+
+body { font-size: 180%; }
+.pxfont { font-size: 120px; }
+.ptfont { font-size: 12pt; }
+.ptfont2 { font-size: 16pt;}
+.ptfontbig { font-size: 25pt;}
+.emfont { font-size: 1em; }
+
+.pxbox {
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin: 20px;
+}
+
+.embox {
+  border: 1px solid #ff0000;
+  padding: 1em;
+  margin: 2em;
+}
+
+.percentbox {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pixelwidth {
+  width: 100px;
+}
+
+.percentwidth {
+  border: 1px solid #ff0000;
+  width: 50%;
+}
+
+.blockimg {
+  display: block;
+}
+
+.bordertop {
+  border-top: 1px solid #ff0000;
+}
+
+.borderbottom {
+  border-bottom: 4px solid #8504E0;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.imgbox {
+  margin-left: 200px;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+a:link {
+ color: #FD3ADC;
+}
+
+a:visited {
+ color: #FF2327;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #FF2327;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
