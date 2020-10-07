@@ -1,0 +1,141 @@
+body { background-color: #A3A3A3; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #182FCB;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 0.1fr 0.05fr 1fr;
+}
+
+#wrapperbox {
+  width: 960px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+  font-family: sans-serif;
+  padding-left: 10px;
+  background-image: linear-gradient(to top, #182fcb, #2439d5, #2e43df, #374dea, #4057f4);
+  grid-column: span 12;
+}
+
+nav {
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #182FCB;
+  grid-column: span 12;
+}
+
+main {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid red;
+  grid-column: span 12;
+}
+
+footer {
+  padding: 15px;
+  background-color: #E43336;
+  grid-column: span 12;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3042BA;
+  border-bottom: 2px solid #3042BA;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+nav li a {
+  color: #5DFDF0;
+  padding: 10px;
+  border: 3px solid #182FCB;
+  background-color: #cc0000;
+  display: block;
+  text-decoration: none;
+  background-image: linear-gradient(to top, #182fcb, #2439d5, #2e43df, #374dea, #4057f4);
+}
+
+nav li a:hover {
+  background-image: linear-gradient(to bottom, #182fcb, #2439d5, #2e43df, #374dea, #4057f4);
+}
+
+a:link {
+ color: #5DFDF0;
+}
+
+a:visited {
+ color: #FF2327;
+}
+
+a:active {
+ color: #5DFDF0;
+}
+
+a:hover {
+ color: #1328B1;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: none;
+}
+
+.floatimage {
+  width: 450px;
+  border: 5px solid #3042BA;
+  float: left;
+  margin: 0 20px 20px 0;
+  margin-top: 0;
+}
+
+.floatright {
+  width: 450px;
+  border: 5px solid #3042BA;
+  float: right;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.span {
+  color: #E43336;
+  font-weight: bold;
+}
+
+.textjustify {
+  text-align: justify;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bordering {
+  margin: 10px;
+  width: 250px;
+  border: 5px solid #3042BA;
+}
+
+p {
+  font-size: 18px
+}
